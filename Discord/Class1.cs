@@ -28,7 +28,7 @@ namespace Discord
                 logger.Trace("Deserializing JSON based response");
                 dynamic json_response = JsonConvert.DeserializeObject(response);
 
-                logger.Trace("Setting GstewayURL variable to the responded URL");
+                logger.Trace("Setting GatewayURL variable to the responded URL");
                 GatewayURL = json_response.url;
             }
             
