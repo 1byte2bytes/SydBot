@@ -11,6 +11,8 @@ namespace SydBot
             DiscordCS discord = new DiscordCS();
             
             discord.Connect("");
+
+            return;
         }
     }
 }
