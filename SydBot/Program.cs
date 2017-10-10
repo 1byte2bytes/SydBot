@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Discord;
 
 namespace SydBot
 {
@@ -7,6 +8,9 @@ namespace SydBot
     {
         public static void Main(string[] args)
         {
+            DiscordCS discord = new DiscordCS();
+            
+            discord.Connect("");
         }
     }
 }
