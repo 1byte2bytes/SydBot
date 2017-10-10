@@ -31,8 +31,13 @@ namespace Discord
                 logger.Trace("Setting GatewayURL variable to the responded URL");
                 GatewayURL = json_response.url;
             }
-            
             logger.Trace("Gateway URL is now " + GatewayURL);
+
+            logger.Trace("Connecting to Discord websocket");
+            using (WebSocketSharp.WebSocket ws = new WebSocketSharp.WebSocket(GatewayURL))
+            {
+                logger.Trace("Connected to websocket");
+            }
         }
 
         private string GenAPIURL(string endpoint)
