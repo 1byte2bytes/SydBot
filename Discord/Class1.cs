@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using Newtonsoft.Json;
 
 namespace Discord
 {
@@ -18,7 +19,10 @@ namespace Discord
         {
             using (WebClient client = new WebClient())
             {
-                GatewayURL = client.DownloadString(GenAPIURL("gateway"));
+                string response = client.DownloadString(GenAPIURL("gateway"));
+                dynamic json_response = JsonConvert.DeserializeObject(response);
+
+                GatewayURL = json_response.url;
             }
             
             System.Console.WriteLine(GatewayURL);
