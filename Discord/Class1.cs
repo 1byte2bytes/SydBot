@@ -36,7 +36,10 @@ namespace Discord
             logger.Trace("Connecting to Discord websocket");
             using (WebSocketSharp.WebSocket ws = new WebSocketSharp.WebSocket(GatewayURL + "?v=6&encoding=json"))
             {
-                ws.OnMessage += (sender, e) => SocketHandler.OnMessage(ws, sender, e);
+                ws.OnMessage += (sender, e) => SocketHandler.OnMessage(ws, sender, e, token);
+
+                ws.OnError += (sender, e) => { logger.Error(e.Exception + e.Message); };
+                ws.OnClose += (sender, e) => { logger.Fatal(e.Code + "|" + e.Reason + "|" + e.WasClean); };
 
                 ws.Connect();
                 logger.Trace("Connected to websocket");

@@ -11,14 +11,15 @@ namespace Discord
 
         public static void handler(WebSocketSharp.WebSocket ws, int beat_interval)
         {
+            logger.Trace("Heartbeat handler started");
             while(true)
             {
+                Thread.Sleep(millisecondsTimeout: beat_interval);
                 logger.Trace("Heartbeat Tick!");
-                logger.Trace("Sending heartbeat");
-                ws.Send("{\"op\":1, \"d\": + " + seq + "}");
+                logger.Trace("Sending heartbeat: " + "{\"op\":1, \"d\": " + seq + "}");
+                ws.Send("{\"op\":1, \"d\": " + seq + "}");
                 seq++;
                 logger.Trace("Waiting for next heartbeat");
-                Thread.Sleep(millisecondsTimeout: beat_interval);
             }
         }
     }
