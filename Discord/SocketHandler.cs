@@ -18,7 +18,10 @@ namespace Discord
             logger.Trace("Decoding OPcode");
             if (json_data.op == "10")
             {
-                HeartbeatHandler handler = new HeartbeatHandler(ws, Convert.ToInt32(json_data.d.heartbeat_interval));
+                System.Threading.Thread t = new System.Threading.Thread(delegate(){
+                    HeartbeatHandler.handler(ws, Convert.ToInt32(json_data.d.heartbeat_interval));
+                });
+                t.Start();
             }
         }
     }

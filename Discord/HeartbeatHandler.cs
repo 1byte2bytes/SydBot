@@ -6,10 +6,10 @@ namespace Discord
     class HeartbeatHandler
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
-        static private int beat_interval = 1;
+        //static private int beat_interval = 1;
         static private int seq = 0;
 
-        public static void handler(WebSocketSharp.WebSocket ws)
+        public static void handler(WebSocketSharp.WebSocket ws, int beat_interval)
         {
             while(true)
             {
@@ -20,14 +20,6 @@ namespace Discord
                 logger.Trace("Waiting for next heartbeat");
                 Thread.Sleep(millisecondsTimeout: beat_interval);
             }
-        }
-
-        public HeartbeatHandler(WebSocketSharp.WebSocket ws, int interval)
-        {
-            logger.Trace("Creating HeartbeatHandler");
-            beat_interval = interval;
-            logger.Trace("Heartbeat interval set to " + interval);
-            handler(ws);
         }
     }
 }
