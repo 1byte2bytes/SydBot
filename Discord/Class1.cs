@@ -34,9 +34,14 @@ namespace Discord
             logger.Trace("Gateway URL is now " + GatewayURL);
 
             logger.Trace("Connecting to Discord websocket");
-            using (WebSocketSharp.WebSocket ws = new WebSocketSharp.WebSocket(GatewayURL))
+            using (WebSocketSharp.WebSocket ws = new WebSocketSharp.WebSocket(GatewayURL + "?v=6&encoding=json"))
             {
+                ws.OnMessage += (sender, e) => SocketHandler.OnMessage(ws, sender, e);
+
+                ws.Connect();
                 logger.Trace("Connected to websocket");
+
+                System.Console.ReadLine();
             }
         }
 
