@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
+using Newtonsoft.Json;
 
 namespace Discord
 {
@@ -11,12 +8,16 @@ namespace Discord
         //A very shitty implementation, fix this
         public static string gettext(string token)
         {
-            return
-                "{ \"token\": \"" + token + "\"," +
-                "\"properties\": { \"$os\": \"linux\", \"$browser\": \"DiscordCS\", \"$device\": \"DiscordCS\"}," +
-                "\"compress\": false," +
-                "\"large_threshold\": 50," +
-                "\"presence\": { \"game\": { \"name\": \"SydBot Alpha\", \"type\": 0 }, \"status\": \"online\", \"since\": null, \"afk\": false}}";
+            using (StreamReader fs = new StreamReader("bot.json"))
+            {
+                dynamic json_data = JsonConvert.DeserializeObject(fs.ReadToEnd());
+                return
+                    "{ \"token\": \"" + json_data.token + "\"," +
+                    "\"properties\": { \"$os\": \"linux\", \"$browser\": \"DiscordCS\", \"$device\": \"DiscordCS\"}," +
+                    "\"compress\": false," +
+                    "\"large_threshold\": " + json_data.largeserver + "," +
+                    "\"presence\": { \"game\": { \"name\": \"" + json_data.status_msg + "\", \"type\": 0 }, \"status\": \"online\", \"since\": null, \"afk\": false}}";
+            }
         }
     }
 
