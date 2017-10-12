@@ -6,7 +6,7 @@ namespace Discord
     class IdentifyOpcode
     {
         //A very shitty implementation, fix this
-        public static string gettext(string token)
+        public static string gettext()
         {
             using (StreamReader fs = new StreamReader("bot.json"))
             {

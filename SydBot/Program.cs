@@ -10,7 +10,7 @@ namespace SydBot
         {
             DiscordCS discord = new DiscordCS();
             
-            discord.Connect("");
+            discord.Connect();
 
             return;
         }

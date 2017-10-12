@@ -8,7 +8,7 @@ namespace Discord
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
 
-        public static void OnMessage(WebSocketSharp.WebSocket ws, object sender, WebSocketSharp.MessageEventArgs e, string token) 
+        public static void OnMessage(WebSocketSharp.WebSocket ws, object sender, WebSocketSharp.MessageEventArgs e) 
         {
             logger.Trace("WebSocket message: " + e.Data);
 
@@ -24,7 +24,7 @@ namespace Discord
                 t.Start();
 
                 logger.Trace("Sending Indentify (opcode 2)");
-                string identify = "{\"op\": 2, \"d\": " + IdentifyOpcode.gettext(token) + "}";
+                string identify = "{\"op\": 2, \"d\": " + IdentifyOpcode.gettext() + "}";
                 logger.Trace("Identify data sent: " + identify);
                 ws.SendAsync(identify, null);
             }

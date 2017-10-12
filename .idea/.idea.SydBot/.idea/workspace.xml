@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="740ce5c3-3330-466b-beea-8bc152268ea7" name="Default" comment="" />
+    <list default="true" id="740ce5c3-3330-466b-beea-8bc152268ea7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Discord/Class1.cs" afterPath="$PROJECT_DIR$/Discord/Class1.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Discord/OpcodeTemplates.cs" afterPath="$PROJECT_DIR$/Discord/OpcodeTemplates.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Discord/SocketHandler.cs" afterPath="$PROJECT_DIR$/Discord/SocketHandler.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SydBot/Program.cs" afterPath="$PROJECT_DIR$/SydBot/Program.cs" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,31 +20,65 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SydBot/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
-                <marker date="1507670551746" expanded="false" signature="6:62" ph="..." />
-                <marker date="1507670551746" expanded="true" signature="80:285" ph="{...}" />
-                <marker date="1507670551746" expanded="true" signature="109:283" ph="{...}" />
-                <marker date="1507670551746" expanded="true" signature="162:277" ph="{...}" />
+                <marker date="1507773655337" expanded="false" signature="6:62" ph="..." />
+                <marker date="1507773655337" expanded="true" signature="80:304" ph="{...}" />
+                <marker date="1507773655337" expanded="true" signature="109:302" ph="{...}" />
+                <marker date="1507773655337" expanded="true" signature="162:296" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class1.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Class1.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Discord/Class1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="422">
+              <caret line="38" column="84" lean-forward="false" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
               <folding>
-                <marker date="1507671846136" expanded="false" signature="6:52" ph="..." />
-                <marker date="1507671846136" expanded="true" signature="71:1549" ph="{...}" />
-                <marker date="1507671846136" expanded="true" signature="100:1547" ph="{...}" />
-                <marker date="1507671846136" expanded="true" signature="461:633" ph="/*Obtain the Discord gateway URL, connect to it, and login. Also sets up the heartbeat tick. ... */" />
-                <marker date="1507671846136" expanded="true" signature="675:1320" ph="{...}" />
-                <marker date="1507671846136" expanded="true" signature="796:1235" ph="{...}" />
-                <marker date="1507671846136" expanded="true" signature="1371:1541" ph="{...}" />
+                <marker date="1507773669673" expanded="false" signature="6:52" ph="..." />
+                <marker date="1507773669673" expanded="true" signature="71:2144" ph="{...}" />
+                <marker date="1507773669673" expanded="true" signature="100:2142" ph="{...}" />
+                <marker date="1507773669673" expanded="true" signature="461:633" ph="/*Obtain the Discord gateway URL, connect to it, and login. Also sets up the heartbeat tick. ... */" />
+                <marker date="1507773669673" expanded="true" signature="663:1915" ph="{...}" />
+                <marker date="1507773669673" expanded="true" signature="784:1223" ph="{...}" />
+                <marker date="1507773669673" expanded="true" signature="1461:1905" ph="{...}" />
+                <marker date="1507773669673" expanded="true" signature="1966:2136" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketHandler.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Discord/SocketHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="26" column="81" lean-forward="false" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+              <folding>
+                <marker date="1507773689598" expanded="false" signature="6:48" ph="..." />
+                <marker date="1507773689598" expanded="true" signature="67:1133" ph="{...}" />
+                <marker date="1507773689598" expanded="true" signature="93:1131" ph="{...}" />
+                <marker date="1507773689598" expanded="true" signature="292:1125" ph="{...}" />
+                <marker date="1507773689598" expanded="true" signature="593:1115" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpcodeTemplates.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Discord/OpcodeTemplates.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <marker date="1507773808699" expanded="false" signature="6:39" ph="..." />
+                <marker date="1507773808699" expanded="true" signature="58:919" ph="{...}" />
+                <marker date="1507773808699" expanded="true" signature="85:881" ph="{...}" />
+                <marker date="1507773808699" expanded="true" signature="179:875" ph="{...}" />
+                <marker date="1507773808699" expanded="true" signature="256:865" ph="{...}" />
+                <marker date="1507773808699" expanded="true" signature="904:917" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -47,8 +86,13 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SydBot/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Discord/OpcodeTemplates.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Discord/SocketHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Discord/Class1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -56,14 +100,18 @@
       <list>
         <option value="$PROJECT_DIR$/SydBot/Program.cs" />
         <option value="$PROJECT_DIR$/Discord/Class1.cs" />
+        <option value="$PROJECT_DIR$/Discord/SocketHandler.cs" />
+        <option value="$PROJECT_DIR$/Discord/OpcodeTemplates.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="2760" />
-    <option name="height" value="1796" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="831" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -80,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -107,32 +154,11 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SydBot (2 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Discord" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="References" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assemblies" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,11 +220,12 @@
       <workItem from="1507669969126" duration="1004000" />
       <workItem from="1507671633669" duration="474000" />
       <workItem from="1507672213039" duration="875000" />
+      <workItem from="1507773561647" duration="397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2377000" />
+    <option name="totallyTimeSpent" value="2774000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -210,14 +237,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="-12" width="2760" height="1796" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="831" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -244,13 +272,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SydBot/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <marker date="1507773655337" expanded="false" signature="6:62" ph="..." />
+            <marker date="1507773655337" expanded="true" signature="80:304" ph="{...}" />
+            <marker date="1507773655337" expanded="true" signature="109:302" ph="{...}" />
+            <marker date="1507773655337" expanded="true" signature="162:296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Discord/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <marker date="1507773669673" expanded="false" signature="6:52" ph="..." />
+            <marker date="1507773669673" expanded="true" signature="71:2144" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="100:2142" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="461:633" ph="/*Obtain the Discord gateway URL, connect to it, and login. Also sets up the heartbeat tick. ... */" />
+            <marker date="1507773669673" expanded="true" signature="663:1915" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="784:1223" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="1461:1905" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="1966:2136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SydBot/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
-            <marker date="1507670551746" expanded="false" signature="6:62" ph="..." />
-            <marker date="1507670551746" expanded="true" signature="80:285" ph="{...}" />
-            <marker date="1507670551746" expanded="true" signature="109:283" ph="{...}" />
-            <marker date="1507670551746" expanded="true" signature="162:277" ph="{...}" />
+            <marker date="1507773655337" expanded="false" signature="6:62" ph="..." />
+            <marker date="1507773655337" expanded="true" signature="80:304" ph="{...}" />
+            <marker date="1507773655337" expanded="true" signature="109:302" ph="{...}" />
+            <marker date="1507773655337" expanded="true" signature="162:296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -260,13 +318,14 @@
         <state relative-caret-position="375">
           <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
-            <marker date="1507671846136" expanded="false" signature="6:52" ph="..." />
-            <marker date="1507671846136" expanded="true" signature="71:1549" ph="{...}" />
-            <marker date="1507671846136" expanded="true" signature="100:1547" ph="{...}" />
-            <marker date="1507671846136" expanded="true" signature="461:633" ph="/*Obtain the Discord gateway URL, connect to it, and login. Also sets up the heartbeat tick. ... */" />
-            <marker date="1507671846136" expanded="true" signature="675:1320" ph="{...}" />
-            <marker date="1507671846136" expanded="true" signature="796:1235" ph="{...}" />
-            <marker date="1507671846136" expanded="true" signature="1371:1541" ph="{...}" />
+            <marker date="1507773669673" expanded="false" signature="6:52" ph="..." />
+            <marker date="1507773669673" expanded="true" signature="71:2144" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="100:2142" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="461:633" ph="/*Obtain the Discord gateway URL, connect to it, and login. Also sets up the heartbeat tick. ... */" />
+            <marker date="1507773669673" expanded="true" signature="663:1915" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="784:1223" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="1461:1905" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="1966:2136" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -276,10 +335,10 @@
         <state relative-caret-position="225">
           <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
-            <marker date="1507670551746" expanded="false" signature="6:62" ph="..." />
-            <marker date="1507670551746" expanded="true" signature="80:285" ph="{...}" />
-            <marker date="1507670551746" expanded="true" signature="109:283" ph="{...}" />
-            <marker date="1507670551746" expanded="true" signature="162:277" ph="{...}" />
+            <marker date="1507773655337" expanded="false" signature="6:62" ph="..." />
+            <marker date="1507773655337" expanded="true" signature="80:304" ph="{...}" />
+            <marker date="1507773655337" expanded="true" signature="109:302" ph="{...}" />
+            <marker date="1507773655337" expanded="true" signature="162:296" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -289,39 +348,69 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507670551746" expanded="false" signature="6:62" ph="..." />
-            <marker date="1507670551746" expanded="true" signature="80:285" ph="{...}" />
-            <marker date="1507670551746" expanded="true" signature="109:283" ph="{...}" />
-            <marker date="1507670551746" expanded="true" signature="162:277" ph="{...}" />
+            <marker date="1507773655337" expanded="false" signature="6:62" ph="..." />
+            <marker date="1507773655337" expanded="true" signature="80:304" ph="{...}" />
+            <marker date="1507773655337" expanded="true" signature="109:302" ph="{...}" />
+            <marker date="1507773655337" expanded="true" signature="162:296" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SydBot/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="150">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
-            <marker date="1507670551746" expanded="false" signature="6:62" ph="..." />
-            <marker date="1507670551746" expanded="true" signature="80:285" ph="{...}" />
-            <marker date="1507670551746" expanded="true" signature="109:283" ph="{...}" />
-            <marker date="1507670551746" expanded="true" signature="162:277" ph="{...}" />
+            <marker date="1507773655337" expanded="false" signature="6:62" ph="..." />
+            <marker date="1507773655337" expanded="true" signature="80:304" ph="{...}" />
+            <marker date="1507773655337" expanded="true" signature="109:302" ph="{...}" />
+            <marker date="1507773655337" expanded="true" signature="162:296" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Discord/Class1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="422">
+          <caret line="38" column="84" lean-forward="false" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
           <folding>
-            <marker date="1507671846136" expanded="false" signature="6:52" ph="..." />
-            <marker date="1507671846136" expanded="true" signature="71:1549" ph="{...}" />
-            <marker date="1507671846136" expanded="true" signature="100:1547" ph="{...}" />
-            <marker date="1507671846136" expanded="true" signature="461:633" ph="/*Obtain the Discord gateway URL, connect to it, and login. Also sets up the heartbeat tick. ... */" />
-            <marker date="1507671846136" expanded="true" signature="675:1320" ph="{...}" />
-            <marker date="1507671846136" expanded="true" signature="796:1235" ph="{...}" />
-            <marker date="1507671846136" expanded="true" signature="1371:1541" ph="{...}" />
+            <marker date="1507773669673" expanded="false" signature="6:52" ph="..." />
+            <marker date="1507773669673" expanded="true" signature="71:2144" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="100:2142" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="461:633" ph="/*Obtain the Discord gateway URL, connect to it, and login. Also sets up the heartbeat tick. ... */" />
+            <marker date="1507773669673" expanded="true" signature="663:1915" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="784:1223" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="1461:1905" ph="{...}" />
+            <marker date="1507773669673" expanded="true" signature="1966:2136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Discord/SocketHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="81" lean-forward="false" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+          <folding>
+            <marker date="1507773689598" expanded="false" signature="6:48" ph="..." />
+            <marker date="1507773689598" expanded="true" signature="67:1133" ph="{...}" />
+            <marker date="1507773689598" expanded="true" signature="93:1131" ph="{...}" />
+            <marker date="1507773689598" expanded="true" signature="292:1125" ph="{...}" />
+            <marker date="1507773689598" expanded="true" signature="593:1115" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Discord/OpcodeTemplates.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <marker date="1507773808699" expanded="false" signature="6:39" ph="..." />
+            <marker date="1507773808699" expanded="true" signature="58:919" ph="{...}" />
+            <marker date="1507773808699" expanded="true" signature="85:881" ph="{...}" />
+            <marker date="1507773808699" expanded="true" signature="179:875" ph="{...}" />
+            <marker date="1507773808699" expanded="true" signature="256:865" ph="{...}" />
+            <marker date="1507773808699" expanded="true" signature="904:917" ph="{...}" />
           </folding>
         </state>
       </provider>
